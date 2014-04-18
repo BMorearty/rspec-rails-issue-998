@@ -15,5 +15,6 @@ group :doc do
 end
 
 group :test do
-  gem 'rspec-rails'
+  gem 'byebug'
+  gem 'rspec-rails', '2.14.2'
 end
